@@ -44,6 +44,10 @@ footer {
   background-image: url("images/tom4.png");
 }
 
+.o {
+  background-image: url("images/wow.jpg"), no-repeat;
+}
+
 .set {
   margin: 10% auto;
 }
