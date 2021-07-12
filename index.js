@@ -64,7 +64,7 @@ function makeSound(key) {
             tom_4.play();
             break;
         case "o":
-            var wow = new Audio("sounds/wow.mp3");
+            var wow = new Audio("sounds/wow-f.mp3");
             wow.play();
             break;
 
