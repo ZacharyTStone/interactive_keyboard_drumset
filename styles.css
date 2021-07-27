@@ -15,7 +15,10 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
+  align-items: center;
+  align-content: space-between;
+  padding-left: 25vw;
+  padding-right: 25vw;
 }
 
 
@@ -51,10 +54,6 @@ h1 {
   background-image: url("images/wow.jpg");
 }
 
-.set {
-  margin: 10% auto;
-}
-
 .game-over {
   background-color: red;
   opacity: 0.8;
@@ -88,15 +87,4 @@ h1 {
 
 }
 
-@media screen and (max-width:600px) {
-
-  .set {
-    height: fit-content;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-  }
-
-}
+button {}
