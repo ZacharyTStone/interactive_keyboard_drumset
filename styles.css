@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: black
 }
 
 h1 {
@@ -11,10 +11,13 @@ h1 {
 
 }
 
-footer {
-  color: #DBEDF3;
-  font-family: sans-serif;
+.set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
+
 
 .w {
   background-image: url("images/kick.png");
@@ -82,4 +85,18 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+
+}
+
+@media screen and (max-width:600px) {
+
+  .set {
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+  }
+
 }
