@@ -67,10 +67,14 @@ function makeSound(key) {
             var wow = new Audio("sounds/wow-f.mp3");
             wow.play();
             break;
+        case "p":
+            var cowbell = new Audio("sounds/cowbell.mp3");
+            cowbell.play();
+            break;
 
             // like the else statment
         default:
-            console.log(buttonInnerHtml);
+            console.log("uh oh");
     }
 }
 

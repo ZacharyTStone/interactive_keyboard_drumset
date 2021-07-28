@@ -55,6 +55,13 @@ h1 {
   background-image: url("images/wow.jpg");
 }
 
+.p {
+  background-image: url("images/cowbell.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .game-over {
   background-color: red;
   opacity: 0.8;
