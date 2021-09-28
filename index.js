@@ -1,3 +1,4 @@
+// finds all the drums with class .drum
 var number_of_drum_buttons = document.querySelectorAll(".drum").length;
 
 for (var i = 0; i < (number_of_drum_buttons); i++) {

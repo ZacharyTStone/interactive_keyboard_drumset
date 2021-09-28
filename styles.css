@@ -13,13 +13,12 @@ h1 {
 
 .set {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   align-content: space-around;
   margin-top: 5%;
-  margin-left: 333px;
-  margin-right: 333px;
 }
 
 
@@ -93,4 +92,19 @@ h1 {
   margin: 10px;
   background-color: white;
 
+}
+
+/* mobile viwports */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .drum {
+    /* removes querty cues */
+    font-size: 0;
+    /* smaller buttons */
+    width: 100px;
+    height: 100px;
+  }
 }
