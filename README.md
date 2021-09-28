@@ -19,8 +19,8 @@ Play the drums by clicking on the buttons or with key presses.
 
 ## Links
 
-- GH-Pages demo site link: (https://zachinjapan.github.io/interactive_keyboard_drumset/)
-- Github Repository URL: (https://github.com/zachinjapan/interactive_keyboard_drumset/)
+- GH-Pages demo site link: (https://zachinjapan.github.io/interactive_keyboard_drumset)
+- Github Repository URL: (https://github.com/zachinjapan/interactive_keyboard_drumset)
 
 ## Technologies Used
 
